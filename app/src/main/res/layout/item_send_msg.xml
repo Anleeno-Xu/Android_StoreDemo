@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_send_msg_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="6dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="2019-1-12 17:33:00"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        android:visibility="gone"/>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp">
+
+        <LinearLayout
+            android:id="@+id/layout_right_person_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/layout_right_person_info"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            >
+            <TextView
+                android:id="@+id/tv_send_msg_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="你好"
+                android:textColor="@color/white"
+                android:layout_marginRight="15dp"
+                android:padding="8dp"
+
+                android:textSize="16sp"
+                android:background="@drawable/msg_to_tv_shape"/>
+
+        </FrameLayout>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

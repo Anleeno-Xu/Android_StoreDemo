@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung"
+    android:orientation="vertical"
+    tools:context="com.example.storedemo.CollectActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:id="@+id/collect_bk_iv"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/kf_back" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="我的收藏"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"/>
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/collect_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:divider="@null"
+        android:dividerHeight="6dp"
+        android:listSelector="@android:color/transparent"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:layout_marginBottom="8dp"
+        android:scrollbars="none">
+
+    </ListView>
+
+</LinearLayout>

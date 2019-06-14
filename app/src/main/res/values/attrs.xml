@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AmountView">
+        <!--加减按钮宽度-->
+        <attr name="btnWidth" format="dimension"/>
+        <!--中间et宽度-->
+        <attr name="tvWidth" format="dimension"/>
+
+        <attr name="tvTextSize" format="dimension"/>
+
+        <attr name="btnTextSize" format="dimension"/>
+
+    </declare-styleable>
+</resources>

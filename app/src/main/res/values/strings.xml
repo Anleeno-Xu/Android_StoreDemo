@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">StoreDemo</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">首页</string>
+    <string name="title_sort">分类</string>
+    <string name="title_cart">购物车</string>
+    <string name="title_person">个人</string>
+
+    <string name="robatName">客服</string>
+    <string name="usernameformat">abcdefghijklmnopqrstuvwxyz</string>
+    <string name="passwordformat">0123456789abcdefghijklmnopqrstuvwxyz</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">app1</string>
+    <string name="title_home">首页</string>
+    <string name="title_sort">分类</string>
+    <string name="title_cart">购物车</string>
+    <string name="title_person">个人</string>
+</resources>

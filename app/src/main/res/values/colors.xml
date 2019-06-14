@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="smileyMenuSelectionColor">#33303030</color>
+    <color name="smileyMenuCharColor">#FF303030</color>
+    <color name="mycolor">#fdaab2</color>
+    <color name="white">#ffffff</color>
+    <color name="tab_checked">#ED6A2C</color>
+    <color name="tab_unchecked">#33303030</color>
+    <color name="color_minefragment_top">#20B2AA</color>
+    <color name="colorAccent1">#D81B60</color>
+    <color name="black">#000000</color>
+    <color name="kf_title_bar">#6475e1</color>
+
+    <color name="startColor">#4e96e7</color>
+    <color name="endColor">#67d6f6</color>
+
+    <color name="divider">#ffd2d2d2</color>
+
+</resources>
