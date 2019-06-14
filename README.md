@@ -5,7 +5,7 @@
 
 #### 第一版截图
 
-### *数据来源：孔夫子书店（http://www.kongfz.com）*
+### *数据来源：[孔夫子书店]（http://www.kongfz.com/）*
 
 #### 后续版本修改期望：
 * 1.sqlitedatabase改为mysql，sqlitedatabase在应用卸载后容易丢失。
