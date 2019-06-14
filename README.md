@@ -4,6 +4,16 @@
 #### 实现了用户登录注册（第一次登录成功后自动登录）和信息修改、图书详情查看及搜索、图书分类查看、商品加入购物车、订单生成与删除、收藏图书、基于图灵机器人的小客服等基本模块。另外实现了图书轮播展示（含点击事件）、RecyclerView瀑布流图片展示、Fragment+ViewPager的导航框架等功能。
 
 #### 第一版截图
+![首页](https://github.com/Anleeno-Xu/StoreDemo/blob/master/app/src/main/assets/p1.png)
+![分类](https://github.com/Anleeno-Xu/StoreDemo/blob/master/app/src/main/assets/p2.png)
+![购物车](https://github.com/Anleeno-Xu/StoreDemo/blob/master/app/src/main/assets/p3.png)
+![个人](https://github.com/Anleeno-Xu/StoreDemo/blob/master/app/src/main/assets/p4.png)
+![生成订单](https://github.com/Anleeno-Xu/StoreDemo/blob/master/app/src/main/assets/p5.png)
+![我的订单](https://github.com/Anleeno-Xu/StoreDemo/blob/master/app/src/main/assets/p6.png)
+![图书详情](https://github.com/Anleeno-Xu/StoreDemo/blob/master/app/src/main/assets/p7.png)
+![客服](https://github.com/Anleeno-Xu/StoreDemo/blob/master/app/src/main/assets/p8.png)
+![我的收藏](https://github.com/Anleeno-Xu/StoreDemo/blob/master/app/src/main/assets/p9.png)
+![注册](https://github.com/Anleeno-Xu/StoreDemo/blob/master/app/src/main/assets/p10.png)
 
 ### *数据来源：孔夫子书店（http://www.kongfz.com/）*
 
