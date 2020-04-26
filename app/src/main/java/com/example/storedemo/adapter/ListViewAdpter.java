@@ -61,9 +61,9 @@ public class ListViewAdpter extends BaseAdapter {
             holder = new ViewHolder();
 
             holder.bk_name = (TextView) convertView.findViewById(R.id.bk_name_tv);
-            holder.bk_author=(TextView)convertView.findViewById(R.id.bk_author_tv);
-            holder.bk_price=(TextView)convertView.findViewById(R.id.bk_price_tv);
-            holder.bk_pic=(ImageView)convertView.findViewById(R.id.bookpic_iv);
+            holder.bk_author = (TextView) convertView.findViewById(R.id.bk_author_tv);
+            holder.bk_price = (TextView) convertView.findViewById(R.id.bk_price_tv);
+            holder.bk_pic = (ImageView) convertView.findViewById(R.id.bookpic_iv);
 
             convertView.setTag(holder);
 
@@ -76,19 +76,19 @@ public class ListViewAdpter extends BaseAdapter {
         holder.bk_name.setText(book.getBk_name());
         holder.bk_author.setText(book.getBk_author());
 
-        holder.bk_price.setText(book.getBk_price()+" ￥");
-                Glide.with(context)
-                        .load(Uri.parse(book.getBk_picuri()))
-                        .apply(RequestOptions.bitmapTransform(new RoundedCorners(20)))
-                        .into(holder.bk_pic);
-                        //holder.rectangleCircleImageView.setImageURI(Uri.parse(recipes.getIcon_addr()));
+        holder.bk_price.setText(book.getBk_price() + " ￥");
+        Glide.with(context)
+                .load(Uri.parse(book.getBk_picuri()))
+                .apply(RequestOptions.bitmapTransform(new RoundedCorners(20)))
+                .into(holder.bk_pic);
+        //holder.rectangleCircleImageView.setImageURI(Uri.parse(recipes.getIcon_addr()));
 
         return convertView;
     }
 
 
     private class ViewHolder {
-        TextView bk_name,bk_author,bk_price;
+        TextView bk_name, bk_author, bk_price;
         ImageView bk_pic;
     }
 }
