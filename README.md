@@ -18,7 +18,7 @@
 ### *数据来源：孔夫子书店（http://www.kongfz.com/）*
 
 #### 后续版本修改期望：
-* 1.sqlitedatabase改为mysql，sqlitedatabase在应用卸载后容易丢失。
+* 1.sqlitedatabase改为mysql。
 * 2.增加扫描二维码搜索图书的功能，二维码号作为图书的新增属性，随机生成。
 * 3.增加评论功能。
 * 4.增加评分功能。
